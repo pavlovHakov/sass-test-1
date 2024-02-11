@@ -1,0 +1,44 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.block__companies {
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding: 0 22px 33px;
+	background-color: $blac;
+
+	.elem-1 {
+		width: 91px;
+		height: 36px;
+		border-radius: 4px;
+		background: rgba(213, 213, 213, 1);
+
+
+	}
+
+	.elem-2 {
+		width: 158px;
+		height: 36px;
+		border-radius: 4px;
+		background: rgba(213, 213, 213, 1);
+	}
+
+	.elem-3 {
+		width: 92px;
+		height: 36px;
+		border-radius: 4px;
+		background: rgba(213, 213, 213, 1);
+	}
+}

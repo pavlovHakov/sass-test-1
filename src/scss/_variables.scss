@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+@import url('https://fonts.googleapis. com/css2?family=Open+Sans:ital@0;1&display=swap');
+
+$font-poppins: "Poppins",
+sans-serif;
+$font-inter: "Inter",
+sans-serif;
+$font-montserrat: "Montserrat",
+sans-serif;
+$font-sans: "Open Sans",
+sans-serif;
+
+$home-bg:rgba(0, 0, 0, 1);
+$contant-bg: #fff;
+$message-bg: rgba(236, 101, 102, 1);
+$message-color: rgba(255, 255, 255, 1);
+
+
+$header-logo: url(./../img/header-logo.png) no-repeat;
+$header-logo-mobile: url(./../img/header-logo-mobile.png) no-repeat;
+$a-marker: url(./../img/svg/a-marker.svg) no-repeat;
+
+
+$rating-bg: #fff;
+$blac: rgba(0, 0, 0, 1);
+$price-color: rgb(255, 255, 255, 1);
+$inform-title: rgba(31, 31, 31, 1);
+$residue-color: rgba(255, 64, 83, 1);
+$shablon-poloska:rgba(235, 234, 232, 1);
+$product-color: rgba(31, 31, 31, 1);
+$sale-timer-color: rgba(177, 95, 255, 1);
+$price-contant-color: rgba(31, 31, 31, 1);
+$price-old: rgba(255, 64, 83, 1);
+
+$cnp-color: rgba(0, 0, 0, 1);
+$cnp-bg:rgba(176, 253, 228, 1);
+$cnp-family: $font-sans;
+
+$delivery-color: rgba(113, 114, 113, 1);
+
+$free-shipping-color: rgba(31, 31, 31, 1);
+
+$footnote-text: rgba(107, 107, 107, 1);
+
+$footer-bg: rgba(28, 28, 28, 1);
+$footer-color: rgba(255, 255, 255, 1);
+$footer-cnp-color: rgba(0, 0, 0, 1);
+$footer-cnp-bg: rgba(255, 255, 255, 1);
+
+$menu-color: rgba(255, 255, 255, 1);
+$menu-color-show: rgba(31, 31, 31, 1);
+
+$menu-a-color: rgba(0, 0, 0, 1);
+
+$nav-border: rgba(193, 193, 193, 1);
+
+$order-block-color: rgba(84, 84, 84, 1);
+$order-cnp-bg: rgba(176, 253, 228, 1);
+
+
+

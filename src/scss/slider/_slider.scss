@@ -1,0 +1,59 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.slider__wrapper {
+	width: 100%;
+	height: auto;
+
+	.slider {
+		width: 100%;
+		height: 345px;
+		position: relative;
+		overflow: hidden;
+
+		.slider-container {
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			height: 345px;
+			position: absolute;
+			top: 0;
+			left: 0;
+
+			.block-img {
+				width: 345px;
+				height: 345px;
+				margin-right: 25px;
+
+				img {
+					width: 345px;
+				}
+			}
+		}
+	}
+
+	.marker__block {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		width: 100%;
+		height: 8px;
+		border-radius: 1px;
+		background: $shablon-poloska;
+
+		.marker {
+			width: 25%;
+			height: 8px;
+			border-radius: 10px;
+		}
+
+		._active {
+			background: rgba(160, 160, 160, 1);
+		}
+
+	}
+}

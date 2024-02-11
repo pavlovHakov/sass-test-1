@@ -1,0 +1,21 @@
+@import './reset';
+@import './variables';
+@import './home/header';
+@import './home/block-product';
+@import './home/companies';
+@import './home/home';
+@import './slider/slider';
+@import './information/information.scss';
+@import './footer/footer.scss';
+
+.wrapper {
+	width: 393px;
+	height: auto;
+	margin: 0 auto;
+	.contant{
+		width: 100%;
+		background-color: $contant-bg;
+		padding: 24px 24px 0 24px;
+	}
+}
+

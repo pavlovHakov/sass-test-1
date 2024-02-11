@@ -1,0 +1,169 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.header {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	width: 100%;
+	height: 104px;
+	position: relative;
+	margin-bottom: 8px;
+
+	.headr__logo {
+		width: 258.05px;
+		height: 28px;
+		background: $header-logo;
+		background-size: contain;
+		margin-left: 67px;
+		margin-right: 18.3px;
+
+	}
+
+	.menu {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		width: 24px;
+		height: 24px;
+		position: relative;
+		cursor: pointer;
+
+		.elem {
+			width: 18px;
+			height: 2px;
+			background-color: $menu-color;
+			position: absolute;
+			left: 0;
+		}
+
+		.el-1 {
+			top: 5px;
+		}
+
+		.el-2 {
+			top: 50%;
+			margin-top: -1px;
+		}
+
+		.el-3 {
+			bottom: 5px;
+		}
+	}
+}
+
+.header-show {
+	width: 393px;
+	height: 927px;
+	background: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	display: none;
+
+	.wrapp__logo-show {
+		width: 100%;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+		padding: 18px 15px 0 12px;
+
+		.headr__logo-show {
+			width: 258.05px;
+			height: 28px;
+			background: $header-logo-mobile;
+			background-size: contain;
+			margin-bottom: 47px;
+
+		}
+
+		.menu__show {
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			justify-content: center;
+			width: 24px;
+			height: 24px;
+			position: relative;
+			cursor: pointer;
+			padding: 18px 17px 0 12px;
+
+			.elem-show {
+				width: 18px;
+				height: 2px;
+				background-color: $menu-color-show;
+				position: absolute;
+				left: 0;
+
+			}
+
+			.el-1-show {
+				top: 13px;
+				-webkit-transform: rotate(45deg);
+				-ms-transform: rotate(45deg);
+				transform: rotate(45deg);
+			}
+
+			.el-3-show {
+				bottom: 9px;
+				-webkit-transform: rotate(-45deg);
+				-ms-transform: rotate(-45deg);
+				transform: rotate(-45deg);
+			}
+
+		}
+	}
+
+	.nav {
+		width: 100%;
+		height: 188px;
+		padding: 0px 27px 0px 24px;
+		border-bottom: 1px solid $nav-border;
+
+		li a {
+			width: 100%;
+			height: 24px;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			font-family: $font-poppins;
+			font-size: 16px;
+			font-weight: 600;
+			color: $menu-a-color;
+			margin-bottom: 24px;
+			position: relative;
+
+			&::after {
+				content: "";
+				display: block;
+				width: 24px;
+				height: 24px;
+				background: $a-marker;
+				background-size: contain;
+				position: absolute;
+				top: -5px;
+				right: 0;
+			}
+		}
+	}
+}
+
+.nav-show {
+	display: block;
+}
