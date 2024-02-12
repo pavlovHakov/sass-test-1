@@ -45,13 +45,26 @@
 		background: $shablon-poloska;
 
 		.marker {
-			width: 25%;
+			width: 86.2px;
 			height: 8px;
 			border-radius: 10px;
 		}
 
-		._active {
+		.active {
+			height: 8px;
 			background: rgba(160, 160, 160, 1);
+			animation-name: marker-active-bg;
+			animation-duration: 3s;
+		}
+
+		@keyframes marker-active-bg {
+			0% {
+				width: 0;
+			}
+
+			100% {
+				width: 86px;
+			}
 		}
 
 	}
